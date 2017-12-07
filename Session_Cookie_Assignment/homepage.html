@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Home Page</title>
+</head>
+<body>
+
+<form method="post" action="user_info.php">
+	<table>
+		<tr>
+		<td><select name="option_selected">
+			<option value="mysql">MySQL</option>
+			<option value="pgsql">PgSQL</option>
+			</select></td>
+		<tr>
+			<td><label>First Name</label></td>
+			<td><input type="textbox" name="first_name"></td>
+		</tr>
+		<tr>
+			<td><label>Last Name</label></td>
+			<td><input type="textbox" name="last_name"></td>
+		</tr>
+		<tr>
+			<td><input type="submit" name="save_bttn" value="Save"></td>
+		</tr>	
+	</table>
+</form>
+<form method="post" action="logout.php" align="right">
+
+	<input type="submit" name="logout" value="Logout">
+</form>
+
+<form method="post" action="displaydata.php">
+	<select name="option_selected">
+		<option value="mysql">MySQL</option>
+		<option value="pgsql">PgSQL</option>
+	</select>
+	<input type="submit" name="display_data" value="View Data">
+</form>
+
+	
+
+</body>
+</html>
