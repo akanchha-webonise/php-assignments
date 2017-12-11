@@ -1,0 +1,8 @@
+1)Open terminal
+2)Run the server php file.
+Command=  php server.php
+3)Open new terminal.
+4)Run the client php file and write the text message we have to transfer to the server side.
+Command= php client.php "message"
+
+
